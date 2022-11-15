@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * checkout_cart_item_renderers.xml
+ * @copyright Copyright © 2021 Web4pro. All rights reserved.
+ * @author    belousalek2@gmail.com
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="checkout.cart.item.renderers.override">
+            <block class="Web4pro\Cart\Block\Checkout\Cart\Item\Renderer" as="default" template="Web4pro_Cart::cart/item/default.phtml"/>
+            <block class="Web4pro\Cart\Block\Checkout\Cart\Item\Renderer" as="simple" template="Web4pro_Cart::cart/item/default.phtml" />
+        </referenceBlock>
+    </body>
+</page>

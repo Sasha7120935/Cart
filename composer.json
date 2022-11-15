@@ -1,0 +1,16 @@
+{
+  "name": "web4pro/cart",
+  "description": "add field in cart",
+  "require": {
+    "php": "~7.4.0"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Web4pro\\Cart\\": ""
+    }
+  }
+}

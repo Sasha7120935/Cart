@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * routes
+ * @copyright Copyright © 2021 Web4pro. All rights reserved.
+ * @author    belousalek2@gmail.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="cart" frontName="cart">
+            <module name="Web4pro_Cart" />
+        </route>
+    </router>
+</config>

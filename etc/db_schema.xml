@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @copyright Copyright © 2021 Web4pro. All rights reserved.
+ * @author    belousalek2@gmail.com
+ */
+-->
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="quote_cart" resource="checkout" engine="innodb" comment="Order">
+        <column xsi:type="int" name="item_id" unsigned="true" nullable="false" comment="Item ID"/>
+        <column xsi:type="varchar" name="name" nullable="false" comment="Name Quote"/>
+    </table>
+</schema>
